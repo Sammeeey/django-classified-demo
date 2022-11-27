@@ -12,8 +12,8 @@ You can check demo project running here: [django-classified.herokuapp.com](https
  - Note: `python ./manage.py setup_project` command will load initial data to populate app Sections, Groups and Areas based on [craigslist.org](http://craigslist.org) website structure.
 
  ## Run locally
- Create `.env ` file with your local settings (use `.env.example` as an example).
-  - Create Virtual Environment  and install requirements via `pip install -r requirements.txt`.
-  - Create initial database schema `python ./manage.py migrate`
-  - Start local development server `python ./manage.py runserver`
-  - Visit http://127.0.0.1:8000/
+- Create `.env ` file with your local settings (use `.env.example` as an example & save it in `/projects` subdirectory (next to `settings.py`))
+- Create Virtual Environment  and install requirements via `pip install -r requirements.txt`.
+- Create initial database schema `python ./manage.py migrate`
+- Start local development server `python ./manage.py runserver`
+- Visit http://127.0.0.1:8000/
